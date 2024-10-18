@@ -1,0 +1,62 @@
+#hero {
+    height: 80vh;
+  .container {
+    @include flex(flex, space-between, center, row);
+  }
+  .hero-card {
+    width: 23%;
+  }
+  .hero-card h1 {
+    font-size: 20px;
+    width: 70%;
+    margin: 20px auto;
+  }
+
+  .hero-card p {
+    font-size: 17px;
+    width: 83%;
+    margin: 20px auto;
+  }
+  .hero-card1 {
+    width: 23%;
+  }
+  .hero-card1 h1 {
+    font-size: 20px;
+    width: 55%;
+    margin: 20px auto;
+  }
+
+  .hero-card1 p {
+    font-size: 17px;
+    width: 83%;
+    margin: 20px auto;
+  }
+  .btn1 {
+    font-size: 15px;
+    margin-left: 80px;
+    border: 1px solid red;
+    padding: 15px;
+  }
+
+  .hero-icons {
+    font-size: 50px;
+    border: 1px solid red;
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 50%;
+  }
+}
+
+#hero h1 {
+    margin: 50px 0px;
+  font-size: 40px;
+  text-align: center;
+}
+#hero p {
+  font-size: 20px;
+margin: 50px auto;
+  width: 50%;
+
+
+}

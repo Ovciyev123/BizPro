@@ -1,0 +1,156 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+#hero {
+  height: 80vh;
+}
+#hero .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero .hero-card {
+  width: 23%;
+}
+#hero .hero-card h1 {
+  font-size: 20px;
+  width: 70%;
+  margin: 20px auto;
+}
+#hero .hero-card p {
+  font-size: 17px;
+  width: 83%;
+  margin: 20px auto;
+}
+#hero .hero-card1 {
+  width: 23%;
+}
+#hero .hero-card1 h1 {
+  font-size: 20px;
+  width: 55%;
+  margin: 20px auto;
+}
+#hero .hero-card1 p {
+  font-size: 17px;
+  width: 83%;
+  margin: 20px auto;
+}
+#hero .btn1 {
+  font-size: 15px;
+  margin-left: 80px;
+  border: 1px solid red;
+  padding: 15px;
+}
+#hero .hero-icons {
+  font-size: 50px;
+  border: 1px solid red;
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+#hero h1 {
+  margin: 50px 0px;
+  font-size: 40px;
+  text-align: center;
+}
+
+#hero p {
+  font-size: 20px;
+  margin: 50px auto;
+  width: 50%;
+}
+
+#head {
+  background-image: url("https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg.webp");
+  height: 100vh;
+  position: 50% 50%;
+  background-size: cover;
+  position: relative;
+}
+#head .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+}
+@media (max-width: 992px) {
+  #head .container {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  #head .container .head-right {
+    flex-direction: column;
+    margin: 20px 0px;
+  }
+}
+@media (max-width: 992px) {
+  #head .container .head-right a {
+    flex-direction: column;
+    margin: 0px 5px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  #head .container .head-right a {
+    display: none;
+  }
+}
+#head .head-left h1 {
+  color: red;
+  font-size: 40px;
+}
+#head .head-right a {
+  color: white;
+  font-size: 17px;
+  margin: 0px 17px;
+}
+#head .head-text {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  width: 40%;
+  color: white;
+}
+#head .head-text h1 {
+  font-size: 55px;
+  margin: 20px 0px;
+}
+#head .head-text p {
+  font-size: 25px;
+  width: 83%;
+  margin: 30px auto;
+}
+#head .btn {
+  padding: 20px 20px;
+  border: 1px solid red;
+  font-size: 20px;
+  color: white;
+  margin-left: 180px;
+}
