@@ -28,6 +28,13 @@
         }
     }
 
+    @if $breakpoints == largex {
+        @media(max-width: 1200px) {
+            @content;
+        }
+    }
+    
+
     @if $breakpoints == large {
         @media(min-width: 1200px) {
             @content;
